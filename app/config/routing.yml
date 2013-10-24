@@ -1,0 +1,10 @@
+platform:
+    resource: "@PlatformBundle/Controller/"
+    type:     annotation
+    prefix:   /
+ 
+    
+login_check:
+    pattern:   /login_check
+logout:
+    path:   /logout

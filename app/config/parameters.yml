@@ -1,0 +1,14 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: pdo_mysql
+    database_host: noonic-db.my.phpcloud.com
+    database_port: null
+    database_name: noonic
+    database_user: noonic
+    database_password: c0ntp4ss
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    locale: en
+    secret: oiosdiadq230913efokdwjfoij34mn3489nh9834323js42j309a4jgmfe98gnj98rfdn9twn983nrx2nhkxubcgkifkgiusveitvb7835nxxsnlgisuhntivb378b3shsnfidughiumx832hnjklzjkxfjsdoxm87hc8cn2slsifigu

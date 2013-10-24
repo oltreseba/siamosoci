@@ -1,0 +1,12 @@
+ {% extends '::base.html.twig' %}
+
+ {% block title %} User Profile {% endblock %}
+ {% block body %}
+
+ Profile Name: {{firstName}}
+ Mobile: {{mobile}}
+ 
+ {% if profile  == 'PROFILE_OWNER' %} <div><a href="{{ path('profile_edit') }}">Edit My Profile</a></div> {% endif %}
+          
+ {% endblock %}
+ 

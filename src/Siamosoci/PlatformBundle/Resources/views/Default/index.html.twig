@@ -1,0 +1,17 @@
+{% extends '::base.html.twig' %}
+
+{% block title %} Home Page {% endblock %}
+
+{% block body %}
+       
+    <div>Welcome to the home page of siamosoci platform.</div>
+
+    <div><u>Userlist</u></div>
+    
+        {% for entity in entities %}
+
+    <div>{{ entity.id }} || {{ entity.email }} || <a href="{{ path('profile_view') }}/{{ entity.id }}" >View Profile</a></div>
+
+        {% endfor %}
+    
+{% endblock %}

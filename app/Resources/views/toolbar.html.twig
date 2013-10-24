@@ -1,0 +1,18 @@
+{# empty Twig template #}
+
+<header>
+        <a href="{{ base_url }}">Home</a>         
+    
+{% if is_granted('ROLE_USER') %}
+        
+        <a href="{{ path('personal_profile_view') }}">Profile</a> 
+        <a href="{{ path('logout') }}">Sing Out</a> 
+
+{% else%}
+        <a href="{{ path('registration') }}">Sign Up</a>
+        <a href="{{ path('login') }}">Login</a> 
+        <a href="{{ path('forgot') }}">Forgot password</a> 
+
+{% endif %}
+                
+</header>

@@ -1,0 +1,14 @@
+{% extends '::base.html.twig' %}
+
+{% block title %} Login {% endblock %}
+
+{% block body %}
+
+{% if error %} <div>{{ error.message }}</div> {% endif %}
+
+     {{ include('PlatformBundle:Login:form.html.twig') }}
+     
+
+{% endblock %}
+
+{% block sidebar %}{% endblock %}
